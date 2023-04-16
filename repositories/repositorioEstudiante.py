@@ -1,4 +1,5 @@
-from repositories.interfaceRepositorio import InterfaceRepositorio
-from models.Estudiante import Estudiante
-class RepositorioEstudiante(InterfaceRepositorio[Estudiante]):
-    pass
+from repositories.interfaceRepositorio import InterfaceRepositorio # Importa la interfaz del repositorio
+from models.Estudiante import Estudiante # Importa el modelo Estudiante
+
+class RepositorioEstudiante(InterfaceRepositorio[Estudiante]): # Define una clase RepositorioEstudiante que implementa la interfaz InterfaceRepositorio para el modelo Estudiante
+    pass # No implementa ninguna funcionalidad adicional, simplemente hereda de la interfaz y no realiza ninguna modificación o adición de métodos

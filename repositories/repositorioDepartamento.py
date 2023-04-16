@@ -1,4 +1,5 @@
-from repositories.interfaceRepositorio import InterfaceRepositorio
-from models.Departamento import Departamento
-class RepositorioDepartamento(InterfaceRepositorio[Departamento]):
-    pass
+from repositories.interfaceRepositorio import InterfaceRepositorio # Importa la interfaz del repositorio
+from models.Departamento import Departamento # Importa el modelo Departamento
+
+class RepositorioDepartamento(InterfaceRepositorio[Departamento]): # Define una clase RepositorioDepartamento que implementa la interfaz InterfaceRepositorio para el modelo Departamento
+    pass # No implementa ninguna funcionalidad adicional, simplemente hereda de la interfaz y no realiza ninguna modificación o adición de métodos
