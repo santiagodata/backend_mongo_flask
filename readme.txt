@@ -17,7 +17,8 @@ git clone https://github.com/santiagodata/backend_mongo_flask.git
 
 Instalar las librerías requeridas:
 
-Configurar la base de datos: la aplicación utiliza una base de datos específica que debe configurarse antes de su uso.
+Configurar la base de datos: la aplicación utiliza una base de datos específica que debe configurarse antes de su uso. Ver diagram_bd.png para observar un representacion grafica de la Base de Datos
+
 
 Ejecutar la aplicación:
 main.py
@@ -35,5 +36,3 @@ Eliminar una inscripción: los usuarios pueden eliminar una inscripción existen
 Consultar inscripciones: los usuarios pueden consultar las inscripciones existentes en la base de datos, obtener información detallada de una inscripción específica y obtener listados de inscritos en una materia y promedios de notas en una materia específica.
 
 Obtener estadísticas: los usuarios pueden obtener estadísticas relevantes, como las notas más altas por curso.
-
-
