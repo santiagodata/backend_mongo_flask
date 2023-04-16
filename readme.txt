@@ -6,8 +6,9 @@ Requisitos
 La aplicación requiere los siguientes componentes para funcionar correctamente:
 
 Python 3.x
-Librerías: models, repositories (proporcionadas en el código compartido)
-Base de datos compatible (se especifica en la configuración de la aplicación)
+Librerías
+Base de datos compatible (En este caso se usa el servicio de MongoDB Atlas)
+
 Instalación
 Siga los pasos a continuación para instalar y configurar la aplicación:
 
@@ -16,7 +17,7 @@ git clone https://github.com/santiagodata/backend_mongo_flask.git
 
 Instalar las librerías requeridas:
 
-Configurar la base de datos: la aplicación utiliza una base de datos específica que debe configurarse antes de su uso. Consulte la documentación de la aplicación para obtener instrucciones detalladas sobre cómo configurar la base de datos.
+Configurar la base de datos: la aplicación utiliza una base de datos específica que debe configurarse antes de su uso.
 
 Ejecutar la aplicación:
 main.py
