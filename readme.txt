@@ -18,7 +18,7 @@ git clone https://github.com/santiagodata/backend_mongo_flask.git
 Instalar las librerías requeridas:
 
 Configurar la base de datos: la aplicación utiliza una base de datos específica que debe configurarse antes de su uso. Ver diagram_bd.png para observar una representación gráfica de la Base de Datos
-
+La direccion del host de la base de datos se puede editar en config.json
 
 Ejecutar la aplicación:
 main.py
