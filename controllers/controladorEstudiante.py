@@ -1,5 +1,5 @@
 from repositories.repositorioEstudiante import RepositorioEstudiante
-from models.Estudiante import Estudiante
+from models.estudiante import Estudiante
 
 class ControladorEstudiante():
     def __init__(self):

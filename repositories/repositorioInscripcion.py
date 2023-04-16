@@ -1,5 +1,5 @@
 from repositories.interfaceRepositorio import InterfaceRepositorio
-from models.Inscripcion import Inscripcion
+from models.inscripcion import Inscripcion
 
 from bson import ObjectId
 

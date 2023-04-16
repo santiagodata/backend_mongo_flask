@@ -7,7 +7,7 @@ from waitress import serve
 
 app = Flask(__name__)
 cors = CORS(app)
-from controllers.ControladorEstudiante import ControladorEstudiante
+from controllers.controladorEstudiante import ControladorEstudiante
 from controllers.controladorDepartamento import ControladorDepartamento
 from controllers.controladorMateria import ControladorMateria
 from controllers.controladorInscripcion import ControladorInscripcion

@@ -1,7 +1,7 @@
 from repositories.repositorioMateria import RepositorioMateria
 from repositories.repositorioDepartamento import RepositorioDepartamento
-from models.Materia import Materia
-from models.Departamento import Departamento
+from models.materia import Materia
+from models.departamento import Departamento
 
 class ControladorMateria():
     def __init__(self):

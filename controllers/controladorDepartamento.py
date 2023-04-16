@@ -1,5 +1,5 @@
 from repositories.repositorioDepartamento import RepositorioDepartamento # Importa la clase RepositorioDepartamento del módulo repositories.repositorioDepartamento
-from models.Departamento import Departamento # Importa la clase Departamento del módulo models.Departamento
+from models.departamento import Departamento # Importa la clase Departamento del módulo models.Departamento
 from repositories.repositorioMateria import RepositorioMateria # Importa la clase RepositorioMateria del módulo repositories.repositorioMateria
 from repositories.repositorioInscripcion import RepositorioInscripcion # Importa la clase RepositorioInscripcion del módulo repositories.repositorioInscripcion
 

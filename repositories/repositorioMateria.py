@@ -1,6 +1,6 @@
 from bson import ObjectId # Importa la clase ObjectId del módulo bson
 from repositories.interfaceRepositorio import InterfaceRepositorio # Importa la interfaz del repositorio
-from models.Materia import Materia # Importa el modelo Materia
+from models.materia import Materia # Importa el modelo Materia
 
 class RepositorioMateria(InterfaceRepositorio[Materia]): # Define una clase RepositorioMateria que implementa la interfaz InterfaceRepositorio para el modelo Materia
     def getListadoMateriasEnDepartamento(self, id_materia):
